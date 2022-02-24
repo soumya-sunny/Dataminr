@@ -1,6 +1,6 @@
 import React from 'react'
 import Grid from '@mui/material/Grid';
-import FormContainer from '../../molecules/formContainer';
+import FormContainer from '../../molecules/FormContainer';
 import { IPanel, IForm } from '../../../types/types';
 import FormAccordion from '../FormAccordion';
 import { Box, Typography } from '@mui/material';
