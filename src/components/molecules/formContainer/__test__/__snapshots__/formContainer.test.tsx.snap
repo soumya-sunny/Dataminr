@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[` FormContainer Test Suite should match with snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 sc-bdvvtL isMKnI css-1ps6pg7-MuiPaper-root"
+  >
+    <div
+      class="MuiGrid-root MuiGrid-container css-1xzqqmo-MuiGrid-root"
+    >
+      <div
+        class="MuiGrid-root MuiGrid-item css-1abg2ox-MuiGrid-root"
+      >
+        AUDIT LOG
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-item css-1d2j7l7-MuiGrid-root"
+      >
+        <input
+          type="number"
+          value="10"
+        />
+        <span
+          class="MuiSwitch-root MuiSwitch-sizeMedium css-julti5-MuiSwitch-root"
+        >
+          <span
+            class="MuiSwitch-switchBase MuiSwitch-colorPrimary MuiButtonBase-root MuiSwitch-switchBase MuiSwitch-colorPrimary PrivateSwitchBase-root Mui-checked css-5ryogn-MuiButtonBase-root-MuiSwitch-switchBase"
+          >
+            <input
+              checked=""
+              class="MuiSwitch-input PrivateSwitchBase-input css-1m9pwf3"
+              type="checkbox"
+            />
+            <span
+              class="MuiSwitch-thumb css-jsexje-MuiSwitch-thumb"
+            />
+            <span
+              class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+            />
+          </span>
+          <span
+            class="MuiSwitch-track css-1yjjitx-MuiSwitch-track"
+          />
+        </span>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

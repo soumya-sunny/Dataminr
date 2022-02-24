@@ -1,0 +1,154 @@
+{
+  "account": [
+    {
+      "panelTitle": "General",
+      "forms": [
+        {
+          "label": "Case management",
+          "inputs": [
+            {
+              "type": "toggle",
+              "value": "on"
+            }
+          ]
+        },
+        {
+          "label": "Notifications",
+          "inputs": [
+            {
+              "type": "toggle",
+              "value": "on"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "panelTitle": "",
+      "forms": [
+        {
+          "label": "Map timeline",
+          "inputs": [
+            {
+              "type": "toggle",
+              "value": "on"
+            }
+          ]
+        },
+        {
+          "label": "Mass Communications",
+          "inputs": [
+            {
+              "type": "toggle",
+              "value": "on"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "panelTitle": "",
+      "forms": [
+        {
+          "label": "Views and Briefings",
+          "inputs": [
+            {
+              "type": "toggle",
+              "value": "on"
+            }
+          ]
+        },
+        {
+          "label": "Traffic Cameras",
+          "inputs": [
+            {
+              "type": "toggle",
+              "value": "off"
+            }
+          ]
+        }
+      ]
+    }, {
+      "panelTitle": "Settings",
+      "forms": [
+        {
+          "label": "Audit Log",
+          "inputs": [
+            {
+              "type": "number",
+              "value": "10"
+            },
+            {
+              "type": "toggle",
+              "value": "on"
+            }
+          ]
+        },
+        {
+          "label": "Users",
+          "isDisabled": false,
+          "inputs": [
+            {
+              "type": "toggle",
+              "value": "off"
+            }
+          ],
+          "children": [
+            {
+              "label": "Traffic Cameras",
+              "inputs": [
+                {
+                  "type": "toggle",
+                  "value": "on"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }, {
+      "panelTitle": "User Settings",
+      "forms": [
+       
+        {
+          "label": "Users",
+          "isDisabled": true,
+          "inputs": [
+            {
+              "type": "toggle",
+              "value": "on"
+            }
+          ],
+          "children": [
+            {
+              "label": "User add",
+              "inputs": [
+                {
+                  "type": "toggle",
+                  "value": "on"
+                }
+              ]
+            },
+            {
+              "label": "User Delete",
+              "inputs": [
+                {
+                  "type": "toggle",
+                  "value": "on"
+                }
+              ]
+            },
+            {
+              "label": "User Edit",
+              "inputs": [
+                {
+                  "type": "toggle",
+                  "value": "off"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }]
+}
