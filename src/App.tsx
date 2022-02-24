@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import Account from './components/pages/account';
+import Account from './components/pages/Account';
 import { createTheme, ThemeProvider } from '@mui/material';
 
 function App() {
@@ -13,9 +13,8 @@ function App() {
   return (
     <ThemeProvider theme={darkTheme}>
       <div className="App">
-        <header className="App-header">
-          <Account />
-        </header>
+      
+        <Account />
       </div>
     </ThemeProvider>
   );
